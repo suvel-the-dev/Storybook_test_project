@@ -48,3 +48,13 @@
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
+@media (max-width: 480px) {
+  .txtnimg-grid {
+    display: FLEX;
+    flex-direction: column;
+  }
+  .grid-order-reverse {
+    flex-direction: column-reverse !important;
+  }
+}
