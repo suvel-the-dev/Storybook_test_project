@@ -1,0 +1,6 @@
+.txtnimg-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /* grid-template-rows: repeat(8, 0.5fr); */
+  grid-gap: 15px;
+}

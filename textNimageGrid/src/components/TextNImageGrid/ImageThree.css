@@ -1,0 +1,6 @@
+.image-three {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 8;
+}

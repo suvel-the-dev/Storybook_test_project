@@ -1,0 +1,4 @@
+.subtitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
