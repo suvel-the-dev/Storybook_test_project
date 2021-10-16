@@ -18,10 +18,11 @@ const TextNImageGrid = ({
   imageThree,
   imageThreeAlt,
   imageThreeSubText,
-  // reversed,
+  reversed,
 }) => {
+  const gridReversedClass = `grid-order${reversed ? "reverse" : "normal"}`;
   return (
-    <div className="txtnimg-grid">
+    <div className={`txtnimg-grid ${gridReversedClass}`}>
       <TextContent title={title} subtitle={subtitle} />
       <ImageOne
         altTxt={imageOneAlt}

@@ -1,4 +1,7 @@
 .txt-container {
+  padding: 10px;
+  text-align: center;
+
   overflow: hidden;
   text-overflow: ellipsis;
 
