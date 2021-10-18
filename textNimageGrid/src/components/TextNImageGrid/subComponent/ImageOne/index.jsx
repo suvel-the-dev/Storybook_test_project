@@ -1,10 +1,10 @@
 import React from "react";
-import { Image, Caption } from "../index";
-import './ImageThree.css'
+import { Image, Caption } from "../../../index";
+import "./index.css";
 
 const ImageOne = ({ image, altTxt, imageSubText }) => {
   return (
-    <div className="image-three">
+    <div className="image-one">
       <Image img={image} altTxt={altTxt} />
       <Caption>{imageSubText}</Caption>
     </div>

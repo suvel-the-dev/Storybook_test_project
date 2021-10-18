@@ -1,6 +1,6 @@
 import React from "react";
-import { Title, Subtitle } from "../index";
-import './TextContent.css'
+import { Title, Subtitle } from "../../../index";
+import "./index.css";
 
 const TextContent = ({ title, subtitle }) => {
   return (

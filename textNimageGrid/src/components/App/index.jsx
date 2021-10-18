@@ -1,14 +1,6 @@
-import TextNImageGrid from "./index";
-
-export default {
-  title: "Components/TextNImageGrid",
-  component: TextNImageGrid,
-};
-
-const Template = (args) => <TextNImageGrid {...args} />;
-
-export const Default = Template.bind({});
-Default.args = {
+import "./index.css";
+import { TextNImageGrid } from "..";
+const props = {
   title: "Text and Image module 2",
   subtitle: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum eros ex, quis cursus arcu tempor quis. Ut elementum pellentesque orci at rhoncus. Donec in pellentesque turpis. Suspendisse imperdiet viverra quam in fringilla. In ullamcorper maximus rhoncus. Proin vitae maximus neque. Vivamus imperdiet sem vitae ullamcorper suscipit. `,
   imageOne:
@@ -25,3 +17,13 @@ Default.args = {
   imageThreeSubText: "Image taken from a free resource",
   reversed: false,
 };
+
+function App() {
+  return (
+    <div>
+      <TextNImageGrid {...props} />
+    </div>
+  );
+}
+
+export default App;

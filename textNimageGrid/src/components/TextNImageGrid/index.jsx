@@ -1,9 +1,5 @@
 import React from "react";
-import TextContent from "./TextContent";
-import ImageOne from "./ImageOne";
-import ImageTwo from "./ImageTwo";
-import ImageThree from "./ImageThree";
-
+import { ImageOne, ImageTwo, ImageThree, TextContent } from "./subComponent";
 import "./index.css";
 
 const TextNImageGrid = ({

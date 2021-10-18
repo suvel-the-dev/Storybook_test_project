@@ -1,8 +1,8 @@
 import React from "react";
-import { Image, Caption } from "../index";
-import './ImageTwo.css'
+import { Image, Caption } from "../../../index";
+import "./index.css";
 
-const ImageOne = ({ image, altTxt, imageSubText }) => {
+const ImageTwo = ({ image, altTxt, imageSubText }) => {
   return (
     <div className="image-two">
       <Image img={image} altTxt={altTxt} />
@@ -11,4 +11,4 @@ const ImageOne = ({ image, altTxt, imageSubText }) => {
   );
 };
 
-export default ImageOne;
+export default ImageTwo;
